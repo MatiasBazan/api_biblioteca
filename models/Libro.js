@@ -6,7 +6,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/biblioteca", {
 const LibroSchema = new mongoose.Schema(
   {
     titulo: String,
-    autor: String,
+    autor: String
   },
   { collection: "libros" }
 );
